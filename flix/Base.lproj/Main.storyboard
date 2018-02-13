@@ -52,7 +52,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LpP-cR-O7Y">
-                                                    <rect key="frame" x="123" y="37" width="244" height="107"/>
+                                                    <rect key="frame" x="123" y="37" width="244" height="107.5"/>
                                                     <string key="text">Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares to do battle with the First Order.</string>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
                                                     <nil key="textColor"/>
@@ -230,9 +230,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Zio-Ch-aIQ">
-                                <rect key="frame" x="0.0" y="64" width="375" height="537"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Zio-Ch-aIQ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="qEv-9Y-FL1">
                                     <size key="itemSize" width="125" height="230"/>
@@ -262,6 +261,12 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Zio-Ch-aIQ" firstAttribute="trailing" secondItem="reR-Bs-6Y0" secondAttribute="trailing" id="3b8-Ue-ObE"/>
+                            <constraint firstItem="Zio-Ch-aIQ" firstAttribute="top" secondItem="reR-Bs-6Y0" secondAttribute="top" id="GXX-ja-ycc"/>
+                            <constraint firstItem="Zio-Ch-aIQ" firstAttribute="bottom" secondItem="reR-Bs-6Y0" secondAttribute="bottom" id="UCa-sW-dKY"/>
+                            <constraint firstItem="Zio-Ch-aIQ" firstAttribute="leading" secondItem="reR-Bs-6Y0" secondAttribute="leading" id="ejc-Eq-eCt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="reR-Bs-6Y0"/>
                     </view>
                     <navigationItem key="navigationItem" id="FqW-s6-IxW"/>

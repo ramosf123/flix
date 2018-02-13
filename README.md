@@ -152,9 +152,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-# Lab 5 - *Name of App Here*
+# Lab 5 - *Flix*
 
-**Name of your app** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**Flix** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 Time spent: **2** hours spent in total
 
@@ -190,7 +190,7 @@ None
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2018] [Farid Ramos]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
